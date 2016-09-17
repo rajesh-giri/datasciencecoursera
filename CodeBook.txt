@@ -1,0 +1,42 @@
+filenm - naming file for download
+
+Test_act_data - the text file y_test.txt
+Train_act_data - the text file y_train.txt
+Test_subject_data - the text file subject_test.txt
+Train_subject_data - the text file subject_train.txt
+Test_features_data - the text file X_test.txt
+Train_features_data - the text file X_train.txt
+
+Combined test and train datasets together
+
+Subject_data - the combination of Train_subject_data and Test_subject_data)
+Act_data - the combination of Train_act_data and Test_act_data)
+Features_data - the combination of Train_features_data and Test_features_data)
+
+Named the variables
+
+names(Subject_data) - subject
+names(Act_data) - activity
+FeaturesNames - from the text file features.txt
+names(Features_data) -names from the text files
+
+Merge columns for data frame
+
+All_data - combined subject and activity data
+Data - combined features with subject and activity data
+
+Subset Name of Features by measurements
+
+Sub_FeaturesNames - mean and std measurements were pulled out
+SelectedNames 
+Data - overall data
+
+ActivityLabs -the text file activity_labels.txt
+
+Data$activity 
+Data$subject - est subject to a factor
+
+Data.melted -combined data
+Data.mean 
+
+
